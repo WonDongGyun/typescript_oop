@@ -17,4 +17,7 @@
   // string literal Types
   type word = "word";
   const dong: word = "word";
+
+  type bool = true;
+  const tru: bool = true;
 }
