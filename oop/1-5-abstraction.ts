@@ -132,7 +132,7 @@
 
   // 인터페이스로 추상화를 구현하면 이런식으로 maker가 CoffeeMaker, 즉 인터페이스 타입을 갖게 할 수 있다.
   // 인터페이스에 만든이가 넣어둔 함수만 사용할 수 있게 되므로, 존재하지 않는 fillCoffeeBeans는 사용불가 상태가 됨.
-  const maker3: CoffeeMaker = CoffeeMachine.makeMachine(100);
+  const maker3: CoffeeMachine2 = CoffeeMachine2.makeMachine(100);
   maker3.fillCoffeeBeans(200);
   maker3.makeCoffee(10);
 }

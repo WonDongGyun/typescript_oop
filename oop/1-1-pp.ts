@@ -1,6 +1,4 @@
 {
-  // 절차 지향적 구현
-
   type CoffeeCup = {
     shots: number;
     hasMilk: boolean;
